@@ -14,9 +14,9 @@ hexo.extend.filter.register('after_generate', function (locals) {
   const data = {
     animateitem: config.animateitem,
     mobile: config.mobile ? config.mobile : false,
-    animate_css: config.animate_css ? urlFor(config.animate_css) : "https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/animate.min.css",
-    wow_js: config.wow_js ? urlFor(config.wow_js) : "https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow.min.js",
-    wow_init_js: config.wow_init_js ? urlFor(config.wow_init_js) : "https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow_init.js"
+    animate_css: config.animate_css ? urlFor(config.animate_css) : "https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css",
+    wow_js: config.wow_js ? urlFor(config.wow_js) : "https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js",
+    wow_init_js: config.wow_init_js ? urlFor(config.wow_init_js) : "https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"
 
   }
   // 渲染页面
